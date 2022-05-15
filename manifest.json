@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "SaveFrom Download Link",
+  "description": "This extension adds a download button link to youtube. The button links to SaveFrom page for the download",
+  "version": "0.0.1",
+  "web_accessible_resources": [
+    "images/*"
+  ],
+  "browser_action": {
+    "default_icon": "images/icon.png"
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "app.css"
+      ],
+      "js": [
+        "app.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ]
+}
