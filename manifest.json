@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "SaveFrom Download Link",
   "description": "This extension adds a download button link to youtube. The button links to SaveFrom page for the download",
   "version": "0.0.1",
